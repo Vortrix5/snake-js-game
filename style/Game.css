@@ -1,0 +1,58 @@
+.sc{
+    position: relative;
+    top: -100px;
+    margin-left: 10px;
+    color: white;
+    display: none;
+}
+body{
+    overflow-x:hidden;
+}
+#scs1{
+    position: relative;
+    top: -70px;
+    margin-left: 10px;
+    color: white;
+    display: none;
+}
+#scs2{
+    position: relative;
+    right: -40%;
+    top: -110px;
+    display: none;
+}
+.game{
+    display: inline-block;
+    margin-left: 100px;
+}
+.coll{
+    display: block;
+    margin-top: 30px;
+    margin-left: 120px;
+    border: none;
+}
+.difficulty{
+    position: relative;
+    top: -650px;
+    display: none;
+}
+#back{
+margin-top: 70px;
+margin-left: 500px;
+font-size: 70px;
+width: 200px;  
+background-color: red;
+font-family: "Luckiest Guy" ;
+border: none;
+}
+#coop{
+    margin-top: 70px;
+    margin-left: 170px;
+    font-size:80px;    
+    position: relative;
+    top: -300px;
+    padding: 10px 155px;
+    background-color: red;
+    font-family: "Luckiest Guy" ;
+    border: none;
+    }

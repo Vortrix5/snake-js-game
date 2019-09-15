@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style/Game.css">
+<canvas id="gc" width="900" height="900"></canvas>
+<canvas id="gc2" class="game" width="900" height="900"></canvas>
+<div class="sc" id="sc">
+<h3>Score : <span id="score"></span></h3	>
+<h3	>Best Score : <span id="bscore"></span></h3	>
+</div>
+<div class="sc" id="scs1">
+	<h3>Score : <span id="scores1"></span></h3>
+	</div>
+	<div class="sc" id="scs2">
+		<h3>Score : <span id="scores2"></span></h3>
+		</div>
+<div class="difficulty" id="diff">
+		<select class="coll" id="difficulty"  style="width: 600px; font-size: 80px; background-color: red; font-family: 'Luckiest Guy'" class="mdb-select md-form">
+				<option disabled value="normal" selected>Difficlty</option>
+				<option value="Easy">Easy</option>
+				<option value="Normal">Normal</option>
+				<option value="Hard">Hard</option>
+			  </select>
+			  <select class="coll" id="collision"style="width: 600px; font-size: 80px; background-color: red; font-family: 'Luckiest Guy'" class="mdb-select md-form">
+					<option disabled value="off" selected>Collision</option>
+					<option value="on">On</option>
+					<option value="off">Off</option>
+				  </select>
+				  <select class="coll" value="on" id="music" style="width: 600px; font-size: 80px; background-color: red; font-family: 'Luckiest Guy'" class="mdb-select md-form">
+						<option disabled selected>Music</option>
+						<option value="on">On</option>
+						<option value="off">Off</option>
+					  </select>
+					  <button class="coll" id="back">Back</button>
+</div>
+<div class="start"><button class="coll" id="coop">Coop</button></div>
+<div class="coop"></div>
+
+<img src="res/pause.png"  id="imh" style="display: none;">
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
+<script src="js/Game.js"></script>
+<script src="js/Coop.js"></script>
